@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+#galeria .fotos {
+  margin: 0 !important;
+  padding: 10px;
+}
+body{
+ background-color: #102351;
+ color: white;
+}
+.texto{
+  font-size: 1em;
+  text-align: center;
+  padding: 50px;
+  color: #fff;
+  background-color: #143663;
+  margin: 2vh 7vw;
+  max-width: 90vw;
+  box-shadow: rgba(0, 0, 0, 0.9) 0px 5px 20px;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  display: flex;
+}
+h2{
+  margin-left: 100px;
+}
+.fotocomponente{
+  width: 80%;
+}
+.react-player{
+  padding-bottom: 30px;
+}
+
+#galeria img{
+  width: 30%;
+  padding: 1%;
+}
+
+#galeria img:hover{
+  border: 5px solid #f7f7f7;
+  padding: 0;
+}
+
+.escudo{
+  width: 10%;
+  margin-top: 1vh;
+  padding: 1vh;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
